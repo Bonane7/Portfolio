@@ -1,6 +1,6 @@
 // import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-// import About from "./components/About";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
@@ -9,13 +9,10 @@ import Copetances from "./components/Copetances";
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white w-full">
-      {/* <Navbar /> */}
+    <div className="bg-gray-900 text-white w-full md:px-2">
       <Home />
       <Skills />
-      {/* <About />
-      
-      */}
+      <About />
       <Services />
       <Copetances />
       <Contact />

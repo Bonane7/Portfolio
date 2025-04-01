@@ -62,33 +62,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-// import { motion } from "framer-motion";
-
-// const skills = () =>  {
-//     return (
-//       <div>
-//               {/* Section Projects Recent */}
-//       <section id="Projects" className="w-full py-10 text-center">
-//         <h2 className="text-3xl font-bold">Recent Projects</h2>
-//         <div className="flex flex-wrap justify-center gap-6 mt-6">
-//           {["Light-Coding_school", "Jotech-Service", "Restaurant Landing Page"].map((project, index) => (
-//             <motion.div
-//               key={index}
-//               initial={{ opacity: 0, y: 50 }}
-//               animate={{ opacity: 1, y: 0 }}
-//               transition={{ duration: 1, delay: index * 0.4 }}
-//               className="w-full md:w-1/3 bg-gray-800 p-4 rounded-lg shadow-lg"
-//             >
-//               <div className="h-40 bg-gray-600 rounded-md"></div>
-//               <h3 className="mt-4 font-semibold">{project}</h3>
-//             </motion.div>
-//           ))}
-//         </div>
-//       </section>
-
-//       </div>
-//     );
-//   }
-
-// export default skills;

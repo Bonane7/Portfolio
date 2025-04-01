@@ -55,32 +55,3 @@ const Services = () => {
 };
 
 export default Services;
-
-// import { motion } from "framer-motion";
-
-// const services = () =>  {
-//     return (
-//       <div>
-//        {/* Section Services */}
-//        <section id="Services" className="w-full py-10 text-center">
-//         <h2 className="text-3xl font-bold">Services</h2>
-//         <div className="flex flex-wrap justify-center gap-6 mt-6">
-//           {["App Development", "Web Design", "SEO (Web Pages)"].map((service, index) => (
-//             <motion.div
-//               key={index}
-//               initial={{ opacity: 0, y: 50 }}
-//               animate={{ opacity: 1, y: 0 }}
-//               transition={{ duration: 1, delay: index * 0.2 }}
-//               className="w-full md:w-1/3 bg-gray-800 p-4 rounded-lg shadow-lg"
-//             >
-//               <h3 className="mt-4 font-semibold">{service}</h3>
-//             </motion.div>
-//           ))}
-//         </div>
-//       </section>
-
-//       </div>
-//     );
-//   }
-
-// export default services;
