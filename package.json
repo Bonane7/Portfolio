@@ -1,9 +1,9 @@
 {
+  "homepage": "https://Bonane7.github.io/Portfolio/",
   "name": "bonane",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Bonane7.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

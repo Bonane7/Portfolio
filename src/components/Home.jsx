@@ -42,7 +42,7 @@ const Home = () => {
         transition={{ duration: 1 }}
         className="w-full h-[400px] relative md:w-[300px] p-2 bg-gray-800"
       >
-        <h1 className="text-2xl font-bold text-center font-serif">Bonane</h1>
+        <h1 className="text-2xl font-bold text-center font-serif">Bonane-BUSOKE</h1>
         <div className="flex flex-col items-center mt-2">
           <motion.img
             src={profilePic}
